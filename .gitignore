@@ -1,0 +1,27 @@
+# OS/Editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Build/Dist
+build/
+dist/
+
+# Examples/Tests venvs
+examples/**/.venv/
+test/**/.venv/
+
+# Locks (if any in repo root)
+poetry.lock
+uv.lock
