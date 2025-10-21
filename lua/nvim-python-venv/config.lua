@@ -73,7 +73,7 @@ M.default = {
   },
 
   lsp = {
-    servers = { 'pyright', 'basedpyright', 'pylsp', 'jedi_language_server' },
+    servers = { 'basedpyright', 'pyright', 'pylsp', 'jedi_language_server' },
     restart_on_venv_change = true,
     timeout = 5000,
   },
